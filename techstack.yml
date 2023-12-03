@@ -1,0 +1,264 @@
+repo_name: tamaslukacs/quickstart-android
+report_id: 03f9c83d19edd98aab4b5ed68c7118e0
+repo_type: Public
+timestamp: '2023-12-03T15:15:19+00:00'
+requested_by: thatfiredev
+provider: github
+branch: master
+detected_tools_count: 23
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '29.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: github.com/tamaslukacs/quickstart-android/blob/master/storage/app/build.gradle
+  detection_source: storage/app/build.gradle
+  last_updated_by: DPEBot
+  last_updated_on: 2020-02-08 00:36:01.000000000 Z
+- name: Firebase
+  description: The Realtime App Platform
+  website_url: https://firebase.google.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/116/cZLxNFZS.jpg
+  detection_source: auth/app/build.gradle
+  last_updated_by: DPEBot
+  last_updated_on: 2020-04-07 17:15:43.000000000 Z
+- name: Crashlytics
+  description: The world's most powerful, yet lightest weight crash reporting solution.
+    Free for everybody.
+  website_url: http://crashlytics.com
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Mobile Error Monitoring
+  image_url: https://img.stackshare.io/service/264/Q3LJPRGx.png
+  detection_source: crash/app/build.gradle
+  last_updated_by: DPEBot
+  last_updated_on: 2020-04-07 17:15:43.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/android.yml"
+  last_updated_by: Sam Stern
+  last_updated_on: 2020-02-25 18:20:36.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: admob/app/build.gradle
+  last_updated_by: Kalyan Reddy
+  last_updated_on: 2015-12-18 16:34:54.000000000 Z
+- name: OK Log
+  description: A distributed and coordination-free log management system
+  website_url: https://github.com/oklog/oklog
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/6379/24411296.png
+  detection_source: auth/app/build.gradle
+  last_updated_by: Sam Stern
+  last_updated_on: 2016-02-16 19:23:38.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: functions/functions/package.json
+  last_updated_by: Sam Stern
+  last_updated_on: 2018-03-16 21:35:59.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '10.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: github.com/tamaslukacs/quickstart-android/blob/master/storage/app/build.gradle
+  detection_source: storage/app/build.gradle
+  last_updated_by: DPEBot
+  last_updated_on: 2020-02-08 00:36:01.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: auth/web/auth.html
+  last_updated_by: Sam Stern
+  last_updated_on: 2016-01-26 18:57:47.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: com.android.tools.lint:lint
+  description: Lint tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: internal/lint/build.gradle
+  last_updated_by: DPEBot
+  last_updated_on: 2020-04-07 17:15:43.000000000 Z
+- name: com.github.bumptech.glide:glide
+  description: A fast and efficient image loading library for Android focused on smooth
+    scrolling
+  license: BSD-2-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: firestore/app/build.gradle
+  last_updated_by: DPEBot
+  last_updated_on: 2020-04-07 17:15:43.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: mlkit-smartreply/app/build.gradle
+  last_updated_by: DPEBot
+  last_updated_on: 2020-02-08 00:36:01.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: crash/app/build.gradle
+  last_updated_by: Rosário Pereira Fernandes
+  last_updated_on: 2020-03-19 13:21:10.000000000 Z
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: mlkit-translate/app/build.gradle
+  last_updated_by: DPE bot
+  last_updated_on: 2020-03-24 22:14:04.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib
+  description: Kotlin Standard Library for JVM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: mlkit-translate/app/build.gradle
+  last_updated_by: DPE bot
+  last_updated_on: 2020-03-24 22:14:04.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk7
+  description: Kotlin Standard Library JDK 7 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: admob/app/build.gradle
+  last_updated_by: DPE bot
+  last_updated_on: 2020-03-24 22:14:04.000000000 Z
+- name: firebase-admin
+  description: Firebase admin SDK for Node.js
+  package_url: https://www.npmjs.com/firebase-admin
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17151/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source: functions/functions/package.json
+  last_updated_by: Sam Stern
+  last_updated_on: 2018-03-16 21:35:59.000000000 Z
