@@ -1,7 +1,8 @@
 repo_name: tamaslukacs/quickstart-android
 report_id: 03f9c83d19edd98aab4b5ed68c7118e0
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-03T15:15:19+00:00'
+timestamp: '2024-01-05T08:29:05+00:00'
 requested_by: thatfiredev
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android
   detection_source: Repo Metadata
 - name: Kotlin
   description: Statically typed Programming Language targeting JVM and JavaScript
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android
   detection_source: Repo Metadata
 - name: Android SDK
   description: An SDK that provides you the API libraries and developer tools necessary
@@ -56,7 +61,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
-  detection_source_url: github.com/tamaslukacs/quickstart-android/blob/master/storage/app/build.gradle
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/storage/app/build.gradle
   detection_source: storage/app/build.gradle
   last_updated_by: DPEBot
   last_updated_on: 2020-02-08 00:36:01.000000000 Z
@@ -68,6 +73,7 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/116/cZLxNFZS.jpg
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/auth/app/build.gradle
   detection_source: auth/app/build.gradle
   last_updated_by: DPEBot
   last_updated_on: 2020-04-07 17:15:43.000000000 Z
@@ -80,6 +86,7 @@ tools:
   category: Monitoring
   sub_category: Mobile Error Monitoring
   image_url: https://img.stackshare.io/service/264/Q3LJPRGx.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/crash/app/build.gradle
   detection_source: crash/app/build.gradle
   last_updated_by: DPEBot
   last_updated_on: 2020-04-07 17:15:43.000000000 Z
@@ -91,6 +98,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -100,6 +108,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/.github/workflows/android.yml
   detection_source: ".github/workflows/android.yml"
   last_updated_by: Sam Stern
   last_updated_on: 2020-02-25 18:20:36.000000000 Z
@@ -112,6 +121,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/admob/app/build.gradle
   detection_source: admob/app/build.gradle
   last_updated_by: Kalyan Reddy
   last_updated_on: 2015-12-18 16:34:54.000000000 Z
@@ -124,6 +134,7 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/6379/24411296.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/auth/app/build.gradle
   detection_source: auth/app/build.gradle
   last_updated_by: Sam Stern
   last_updated_on: 2016-02-16 19:23:38.000000000 Z
@@ -135,6 +146,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/functions/functions/package.json
   detection_source: functions/functions/package.json
   last_updated_by: Sam Stern
   last_updated_on: 2018-03-16 21:35:59.000000000 Z
@@ -147,7 +159,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
-  detection_source_url: github.com/tamaslukacs/quickstart-android/blob/master/storage/app/build.gradle
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/storage/app/build.gradle
   detection_source: storage/app/build.gradle
   last_updated_by: DPEBot
   last_updated_on: 2020-02-08 00:36:01.000000000 Z
@@ -157,6 +169,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/auth/web/auth.html
   detection_source: auth/web/auth.html
   last_updated_by: Sam Stern
   last_updated_on: 2016-01-26 18:57:47.000000000 Z
@@ -169,6 +182,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android
   detection_source: Repo Metadata
 - name: com.android.tools.lint:lint
   description: Lint tools
@@ -178,6 +192,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/internal/lint/build.gradle
   detection_source: internal/lint/build.gradle
   last_updated_by: DPEBot
   last_updated_on: 2020-04-07 17:15:43.000000000 Z
@@ -190,6 +205,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/firestore/app/build.gradle
   detection_source: firestore/app/build.gradle
   last_updated_by: DPEBot
   last_updated_on: 2020-04-07 17:15:43.000000000 Z
@@ -202,6 +218,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/mlkit-smartreply/app/build.gradle
   detection_source: mlkit-smartreply/app/build.gradle
   last_updated_by: DPEBot
   last_updated_on: 2020-02-08 00:36:01.000000000 Z
@@ -213,6 +230,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/crash/app/build.gradle
   detection_source: crash/app/build.gradle
   last_updated_by: Rosário Pereira Fernandes
   last_updated_on: 2020-03-19 13:21:10.000000000 Z
@@ -225,6 +243,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/mlkit-translate/app/build.gradle
   detection_source: mlkit-translate/app/build.gradle
   last_updated_by: DPE bot
   last_updated_on: 2020-03-24 22:14:04.000000000 Z
@@ -236,6 +255,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/mlkit-translate/app/build.gradle
   detection_source: mlkit-translate/app/build.gradle
   last_updated_by: DPE bot
   last_updated_on: 2020-03-24 22:14:04.000000000 Z
@@ -247,6 +267,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/admob/app/build.gradle
   detection_source: admob/app/build.gradle
   last_updated_by: DPE bot
   last_updated_on: 2020-03-24 22:14:04.000000000 Z
@@ -259,6 +280,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17151/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/tamaslukacs/quickstart-android/blob/master/functions/functions/package.json
   detection_source: functions/functions/package.json
   last_updated_by: Sam Stern
   last_updated_on: 2018-03-16 21:35:59.000000000 Z
